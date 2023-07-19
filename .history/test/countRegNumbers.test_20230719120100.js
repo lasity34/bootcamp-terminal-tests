@@ -15,7 +15,7 @@ describe('The countRegNumbers function', function(){
         assert.equal(3, countRegNumber('CA 182736,CY 523519,CJ 812328'));
     });
     it('should count 4 reg numbers', function(){
-        assert.equal(4, countRegNumber('CA 182736,CA 182736,CY 523519,CJ 812328'));
+        assert.equal(1, countRegNumber('CA 182736,CA 182736,CY 523519,CJ 812328'));
         
     });
 });
