@@ -1,5 +1,5 @@
 import assert from 'assert'
-import isWeekday from '../isWeekday.js';
+import yearsAgo from '../yearsAgo';
 
 
 describe('The isWeekday function', function(){
